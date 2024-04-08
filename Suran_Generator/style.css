@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Rubix",sans-serif;
+}
+
+body{
+    background-color: #123912;
+}
+
+.wrapper{
+    width: 80vmin;
+    padding: 50px 40px;
+    background-color: #15161a;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 15px;
+    box-shadow: 20px 20px 40px rgb(99, 99, 99);
+}
+
+span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+}
+
+p {
+    font-size: 16px;
+    color: #ffff;
+    text-align: center;
+    word-wrap: break-word;
+    line-height: 35px;
+    margin: 30px 0;
+    opacity: 1; 
+}
+
+#suraNum , #suraName {
+    font-size: 16px;
+    color: grey;
+    line-height: 2px;
+    margin-bottom: 20px;
+    opacity: 1; 
+}
+
+
+.fade {
+    opacity: 1;
+    transition: opacity 2s;
+}
+
+button {
+    display: block;
+    background-color: #123912;
+    border: none;
+    padding: 5px;
+    font-size: 18px;
+    color: #ffff;
+    font-weight: 600;
+    padding: 12px 25px;
+    margin: 0 auto;
+    border-radius: 15px;
+    cursor:pointer;
+}
