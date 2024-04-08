@@ -27,7 +27,7 @@ function getSura() {
 
 getSura();
 
-btn.addEventListener('click',SuraJoke)
+btn.addEventListener('click',getSura)
 
 
 
